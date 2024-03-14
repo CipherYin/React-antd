@@ -46,3 +46,14 @@ React 生命周期包括那些：
 
     在react17 会删除以下三个生命周期
     componentWillMount，componentWillReceiveProps ， componentWillUpdate
+
+
+React router和React-router-dom
+4.0版本已经不需要路由配置，一切皆组件
+react-router: 提供了一些router的核心api,包括Router,Route,Switch等
+react-router-dom: 提供了BrowserRouter,HashRouter,Route,Link,NavLink
+
+
+核心用法：
+    * HashRouter和BrowserRouter用法区别
+    * Route: path,exact,component,render
